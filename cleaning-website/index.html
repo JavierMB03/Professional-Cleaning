@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sparkling Clean Co. — professional residential and commercial cleaning services in your area. Call us today for a free quote!"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>Sparkling Clean Co. | Professional Cleaning Services</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <header class="site-header" role="banner">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="nav__logo" href="#home" aria-label="Sparkling Clean Co. — back to top">
+          Sparkling Clean Co.
+        </a>
+        <button
+          class="nav__toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="navMenu"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+        <ul class="nav__menu" id="navMenu" role="list">
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#gallery">Gallery</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+          <li>
+            <a class="nav__link nav__link--cta" href="tel:+15551234567" aria-label="Call us now">
+              Call Now
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- ==================== HERO ==================== -->
+      <section class="hero" id="home" aria-labelledby="heroHeading">
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="hero__content container">
+          <p class="hero__eyebrow">Trusted Local Cleaners</p>
+          <h1 class="hero__title" id="heroHeading">A Cleaner Home, <br />A Happier You.</h1>
+          <p class="hero__tagline">
+            Reliable, eco-friendly residential &amp; commercial cleaning — tailored to your schedule.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="tel:+15551234567" aria-label="Call (555) 123-4567">
+              📞 (555) 123-4567
+            </a>
+            <a class="btn btn--outline btn--lg" href="#contact">Get a Free Quote</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== SERVICES ==================== -->
+      <section class="section services" id="services" aria-labelledby="servicesHeading">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__label">What We Offer</span>
+            <h2 class="section__title" id="servicesHeading">Our Cleaning Services</h2>
+            <p class="section__subtitle">
+              From a quick tidy to a deep scrub, we have a plan that fits every home and budget.
+            </p>
+          </div>
+          <ul class="services__grid" role="list">
+            <li class="service-card">
+              <div class="service-card__icon" aria-hidden="true">🏠</div>
+              <h3 class="service-card__title">Residential Cleaning</h3>
+              <p class="service-card__text">
+                Weekly, bi-weekly, or one-time cleans for apartments, condos, and family homes.
+              </p>
+            </li>
+            <li class="service-card">
+              <div class="service-card__icon" aria-hidden="true">🏢</div>
+              <h3 class="service-card__title">Commercial Cleaning</h3>
+              <p class="service-card__text">
+                Keep your office spotless with flexible scheduling that never interrupts your business.
+              </p>
+            </li>
+            <li class="service-card">
+              <div class="service-card__icon" aria-hidden="true">✨</div>
+              <h3 class="service-card__title">Deep Cleaning</h3>
+              <p class="service-card__text">
+                A thorough top-to-bottom clean — perfect for move-ins, move-outs, or seasonal refreshes.
+              </p>
+            </li>
+            <li class="service-card">
+              <div class="service-card__icon" aria-hidden="true">🛋️</div>
+              <h3 class="service-card__title">Post-Construction</h3>
+              <p class="service-card__text">
+                Dust, debris, and residue cleared away so your new space is ready to enjoy right away.
+              </p>
+            </li>
+            <li class="service-card">
+              <div class="service-card__icon" aria-hidden="true">🌿</div>
+              <h3 class="service-card__title">Eco-Friendly Cleaning</h3>
+              <p class="service-card__text">
+                We use non-toxic, biodegradable products — safe for children, pets, and the planet.
+              </p>
+            </li>
+            <li class="service-card">
+              <div class="service-card__icon" aria-hidden="true">🗓️</div>
+              <h3 class="service-card__title">Recurring Plans</h3>
+              <p class="service-card__text">
+                Save up to 20% with a weekly or bi-weekly subscription plan. Cancel any time.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ==================== ABOUT ==================== -->
+      <section class="section about" id="about" aria-labelledby="aboutHeading">
+        <div class="container about__inner">
+          <div class="about__image-wrap" aria-hidden="true">
+            <img
+              src="images/about-placeholder.svg"
+              alt="Our friendly cleaning team"
+              class="about__image"
+              width="480"
+              height="360"
+              loading="lazy"
+            />
+          </div>
+          <div class="about__content">
+            <span class="section__label">Who We Are</span>
+            <h2 class="section__title" id="aboutHeading">Local, Trusted &amp; Detail-Obsessed</h2>
+            <p>
+              Sparkling Clean Co. has been serving our community since 2015. We are a family-owned
+              business built on the simple belief that a clean space improves every aspect of your life.
+            </p>
+            <p>
+              Every member of our team is background-checked, fully insured, and trained to our
+              high standards. We bring all supplies and equipment — you just unlock the door.
+            </p>
+            <ul class="about__badges" role="list">
+              <li class="badge">✔ Background-checked staff</li>
+              <li class="badge">✔ Fully insured &amp; bonded</li>
+              <li class="badge">✔ 100% satisfaction guarantee</li>
+              <li class="badge">✔ Eco-friendly products</li>
+            </ul>
+            <a class="btn btn--primary" href="#contact">Book a Clean</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== GALLERY ==================== -->
+      <section class="section gallery" id="gallery" aria-labelledby="galleryHeading">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__label">Our Work</span>
+            <h2 class="section__title" id="galleryHeading">Before &amp; After</h2>
+            <p class="section__subtitle">See the Sparkling Clean difference for yourself.</p>
+          </div>
+          <div class="gallery__grid" role="list" aria-label="Photo gallery">
+            <figure class="gallery__item" role="listitem">
+              <img
+                src="images/gallery-1.svg"
+                alt="Spotless kitchen after deep clean"
+                class="gallery__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption class="gallery__caption">Kitchen Deep Clean</figcaption>
+            </figure>
+            <figure class="gallery__item" role="listitem">
+              <img
+                src="images/gallery-2.svg"
+                alt="Sparkling clean bathroom"
+                class="gallery__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption class="gallery__caption">Bathroom Refresh</figcaption>
+            </figure>
+            <figure class="gallery__item" role="listitem">
+              <img
+                src="images/gallery-3.svg"
+                alt="Clean and tidy living room"
+                class="gallery__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption class="gallery__caption">Living Room Tidy</figcaption>
+            </figure>
+            <figure class="gallery__item" role="listitem">
+              <img
+                src="images/gallery-4.svg"
+                alt="Organised and clean office space"
+                class="gallery__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption class="gallery__caption">Office Clean</figcaption>
+            </figure>
+            <figure class="gallery__item" role="listitem">
+              <img
+                src="images/gallery-5.svg"
+                alt="Freshly cleaned bedroom"
+                class="gallery__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption class="gallery__caption">Bedroom Refresh</figcaption>
+            </figure>
+            <figure class="gallery__item" role="listitem">
+              <img
+                src="images/gallery-6.svg"
+                alt="Post-construction site cleared and cleaned"
+                class="gallery__img"
+                width="400"
+                height="300"
+                loading="lazy"
+              />
+              <figcaption class="gallery__caption">Post-Construction</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================== CONTACT ==================== -->
+      <section class="section contact" id="contact" aria-labelledby="contactHeading">
+        <div class="container contact__inner">
+          <div class="contact__info">
+            <span class="section__label">Get In Touch</span>
+            <h2 class="section__title" id="contactHeading">Request a Free Quote</h2>
+            <p>
+              Ready for a cleaner space? Reach out and we'll get back to you within one business day.
+            </p>
+            <address class="contact__details">
+              <a class="contact__link" href="tel:+15551234567" aria-label="Phone number">
+                <span class="contact__icon" aria-hidden="true">📞</span>
+                (555) 123-4567
+              </a>
+              <a class="contact__link" href="mailto:hello@sparklingclean.example" aria-label="Email address">
+                <span class="contact__icon" aria-hidden="true">✉️</span>
+                hello@sparklingclean.example
+              </a>
+            </address>
+          </div>
+
+          <!-- Replace ACTION with your Formspree endpoint, e.g. https://formspree.io/f/yourcode -->
+          <form
+            class="contact__form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            novalidate
+            aria-label="Contact form"
+            id="contactForm"
+          >
+            <div class="form__group">
+              <label class="form__label" for="name">Full Name <span aria-hidden="true">*</span></label>
+              <input
+                class="form__input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Jane Smith"
+                required
+                autocomplete="name"
+              />
+              <span class="form__error" aria-live="polite" id="nameError"></span>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="jane@example.com"
+                required
+                autocomplete="email"
+              />
+              <span class="form__error" aria-live="polite" id="emailError"></span>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="phone">Phone Number</label>
+              <input
+                class="form__input"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(555) 000-0000"
+                autocomplete="tel"
+              />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="service">Service Needed</label>
+              <select class="form__input form__select" id="service" name="service">
+                <option value="" disabled selected>Select a service…</option>
+                <option value="residential">Residential Cleaning</option>
+                <option value="commercial">Commercial Cleaning</option>
+                <option value="deep">Deep Cleaning</option>
+                <option value="post-construction">Post-Construction</option>
+                <option value="eco">Eco-Friendly Cleaning</option>
+                <option value="recurring">Recurring Plan</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea
+                class="form__input form__textarea"
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell us about your space and preferred schedule…"
+                required
+              ></textarea>
+              <span class="form__error" aria-live="polite" id="messageError"></span>
+            </div>
+            <button class="btn btn--primary btn--full" type="submit" id="submitBtn">
+              Send Message
+            </button>
+            <p class="form__success" id="formSuccess" aria-live="polite" hidden>
+              ✅ Thanks! We'll be in touch within one business day.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" role="contentinfo">
+      <div class="container footer__inner">
+        <p class="footer__brand">Sparkling Clean Co.</p>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <a class="footer__link" href="#services">Services</a>
+          <a class="footer__link" href="#about">About</a>
+          <a class="footer__link" href="#gallery">Gallery</a>
+          <a class="footer__link" href="#contact">Contact</a>
+        </nav>
+        <p class="footer__copy">
+          &copy; <span id="year"></span> Sparkling Clean Co. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

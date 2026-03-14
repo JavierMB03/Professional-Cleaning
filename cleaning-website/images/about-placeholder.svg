@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <rect width="480" height="360" fill="#eff6ff"/>
+  <rect x="160" y="80" width="160" height="160" rx="80" fill="#bfdbfe"/>
+  <text x="240" y="300" font-family="system-ui, sans-serif" font-size="16" fill="#3b82f6" text-anchor="middle">Our Team Photo</text>
+</svg>

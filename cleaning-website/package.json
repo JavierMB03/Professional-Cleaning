@@ -1,0 +1,17 @@
+{
+  "name": "sparkling-clean-website",
+  "version": "1.0.0",
+  "description": "Static website for Sparkling Clean Co. local cleaning service",
+  "private": true,
+  "scripts": {
+    "lint": "eslint script.js",
+    "lint:fix": "eslint script.js --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "globals": "^15.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
